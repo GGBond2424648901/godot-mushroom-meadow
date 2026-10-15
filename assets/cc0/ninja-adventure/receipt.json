@@ -1,0 +1,47 @@
+{
+  "source_page": "https://pixel-boy.itch.io/ninja-adventure-asset-pack",
+  "repository": "https://github.com/pixel-boy/NinjaAdventure",
+  "commit": "6ac78232d5aedcc85ce5f27d060ea92366f7c24a",
+  "archive_sha256": "004c23b5ab1a582c80de3dc8c45fa731be8c9abd321e258f0390d7bb0cd361dd",
+  "creator": "Pixel-Boy and AAA",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "download_date": "2026-10-14",
+  "author_page_sha256": "41aee7cfbe214e589833f517c21cf51c8a320639fd8ea800fe9a6d31c04f30e6",
+  "redistribution_allowed": true,
+  "files": {
+    "floor.png": {
+      "upstream_path": "content/map/tileset_floor.png",
+      "sha256": "e111065065edf806e7e893330086e68efc8755175d92f14d087b42d40a331e16",
+      "bytes": 29615
+    },
+    "props.png": {
+      "upstream_path": "content/map/tileset_village_abandoned.png",
+      "sha256": "6787c6e22a4d44ceee4f158309b2519707bdb70c59aca00b3d49006cadcca06e",
+      "bytes": 31779
+    },
+    "water.png": {
+      "upstream_path": "content/map/tileset_animated.png",
+      "sha256": "54e1e433fe9471db3660b14de3fa6ec6860a1be4ddbe835b3c6cad9f73045aca",
+      "bytes": 691
+    },
+    "traveler.png": {
+      "upstream_path": "content/character/samurai_green/samurai_green.png",
+      "sha256": "552e1af74a8d565408519ced8c5bb309d291a9d3002e4e37c881d2181f413e96",
+      "bytes": 4784
+    },
+    "grass.png": {
+      "upstream_path": "content/destroyable/grass.png",
+      "sha256": "3177a5814a6086f615eb8e1f1a4fe095dd23c6d7357e9daccef11ca02c4e5b71",
+      "bytes": 261
+    },
+    "tile-definition.source.txt": {
+      "upstream_path": "content/map/tileset.tres",
+      "sha256": "750f8366577af1980292f3bdc0bccfb8fe6cffd9925cb36a90d5e18bb3115682",
+      "bytes": 171371
+    }
+  },
+  "modifications": "Original PNG bytes; Godot selects regions with nearest integer scaling.",
+  "intake_method": "CLI unavailable; pinned upstream ZIP CRC, safe paths, closed subset roster, compare bytes before admission.",
+  "status": "admitted-byte-integrity-verified"
+}

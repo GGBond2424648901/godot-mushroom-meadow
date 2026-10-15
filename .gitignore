@@ -1,0 +1,10 @@
+.godot/
+*.import
+__pycache__/
+*.pyc
+launch-logs/
+dist/
+engine/
+*.zip
+.DS_Store
+Thumbs.db
