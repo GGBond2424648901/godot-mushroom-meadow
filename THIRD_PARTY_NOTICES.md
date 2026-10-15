@@ -48,6 +48,6 @@ GDScript交互代码、场景布局、代码定义的蘑菇像素造型与运行
 
 二进制保持原字节，只放在Windows便携ZIP的`engine/`中；Git仓库和源码ZIP不携带引擎。上游声明下载地址与哈希记录在`licenses/upstream-notices.json`。
 
-## 演示与封面
+## 工程演示图
 
-`media/preview.png`与`media/bounce.gif`来自本场景Godot实机，包含上述CC0人物和环境素材。横竖封面以实机截帧为底图，用图像工具添加文字；它们是宣传图片，不会在游戏中载入，也不替代基础素材。其字体文字为图像像素，不附新的字体文件。
+`media/preview.png`与`media/bounce.gif`来自本场景Godot实机，包含上述CC0人物和环境素材，用于说明工程效果。

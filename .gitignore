@@ -8,3 +8,8 @@ engine/
 *.zip
 .DS_Store
 Thumbs.db
+
+# Video publishing materials stay in the creator's private workspace.
+media/cover-*
+docs/PUBLISHING.md
+docs/COVER-PROMPTS.md

@@ -4,7 +4,7 @@
 
 ## 包含的内容
 
-- 源码ZIP：项目、GDScript、可编辑场景、所需像素素材与字体、许可证、代码讲解、检查与打包工具、演示图和发布封面。
+- 源码ZIP：项目、GDScript、可编辑场景、所需像素素材与字体、许可证、代码讲解、检查与打包工具和实机演示图。
 - Windows便携ZIP：源码ZIP同等内容，另加官方Godot 4.7.2的64位EXE与控制台启动器。不是编译导出的游戏EXE。
 - 两个ZIP都附`PACKAGE-MANIFEST.json`，逐文件记录字节数与SHA256。
 - Release单独提供`SHA256SUMS.txt`，用于下载后核对完整ZIP。

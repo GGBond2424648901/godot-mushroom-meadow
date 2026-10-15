@@ -50,6 +50,8 @@ def main():
     files = {name: (ROOT / name).read_bytes() for name in tracked if name}
     for name in files:
         parts = PurePosixPath(name).parts
+        if name in {"docs/PUBLISHING.md", "docs/COVER-PROMPTS.md"} or name.startswith("media/cover-"):
+            raise ValueError("Private video publishing material cannot be packaged: " + name)
         if any(p in {".git", ".godot", "engine", "dist", "launch-logs", "node_modules"} for p in parts):
             raise ValueError("Non-public file was Git-listed: " + name)
         if name.endswith((".import", ".exe", ".zip", ".pem", ".key")) or PurePosixPath(name).name.startswith(".env"):

@@ -78,7 +78,7 @@ GODOT_BIN=/path/to/godot sh ./run.sh
 - **中文字体：Noto Sans SC，SIL OFL 1.1**，见 [`assets/fonts/OFL.txt`](assets/fonts/OFL.txt)。
 - **便携包的Godot引擎：MIT及其依赖各自许可**，完整声明见 [`licenses/`](licenses/)；引擎二进制只在便携下载中。
 
-详细范围与上游链接见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。MIT不替代第三方素材和字体原有许可。场景不是一整张生成贴图；宣传封面基于实机帧添加文字，与运行时资源分开。
+详细范围与上游链接见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。MIT不替代第三方素材和字体原有许可。场景使用可编辑瓦片与独立节点搭建。
 
 ## 验证与打包
 
@@ -89,4 +89,4 @@ godot --headless --path . --script res://tests/smoke.gd
 
 测试覆盖资源加载、可编辑瓦片、E蓄力释放、实际起跳高度、盖柄连接与重置。Windows可运行 `Launch.ps1 -GodotPath '完整路径' -Smoke`。
 
-仓库中的 `tools/make_release.py` 仅供维护者打包，需要Python 3和Git；游戏本身不依赖它。构建与验证记录见 [`docs/RELEASE.md`](docs/RELEASE.md)，发布标题、简介和评论区文案见 [`docs/PUBLISHING.md`](docs/PUBLISHING.md)。
+仓库中的 `tools/make_release.py` 仅供维护者打包，需要Python 3和Git；游戏本身不依赖它。构建与验证记录见 [`docs/RELEASE.md`](docs/RELEASE.md)。
